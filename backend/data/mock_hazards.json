@@ -1,0 +1,165 @@
+[
+  {
+    "id": "mock_flood_underpass",
+    "external_id": "mock:flood_underpass",
+    "type": "flood",
+    "title": "Flooded underpass",
+    "description": "Water accumulation reported beneath the railway underpass; use the elevated road.",
+    "lat": 31.634,
+    "lng": 74.8723,
+    "radius_m": 350,
+    "source": "mock",
+    "severity": 5,
+    "confidence": 0.92,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_fire_market",
+    "external_id": "mock:fire_market",
+    "type": "fire",
+    "title": "Fire near market road",
+    "description": "Reported building fire with smoke affecting the adjoining road.",
+    "lat": 31.6282,
+    "lng": 74.8791,
+    "radius_m": 220,
+    "source": "mock",
+    "severity": 4,
+    "confidence": 0.84,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_blocked_bridge",
+    "external_id": "mock:blocked_bridge",
+    "type": "blockage",
+    "title": "Bridge access blocked",
+    "description": "Debris and roadworks obstruct the bridge approach.",
+    "lat": 31.641,
+    "lng": 74.8612,
+    "radius_m": 180,
+    "source": "mock",
+    "severity": 4,
+    "confidence": 0.8,
+    "admin_rating": 5,
+    "admin_status": "confirmed",
+    "verified": true,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_rain_risk",
+    "external_id": "mock:rain_risk",
+    "type": "flood",
+    "title": "Heavy rainfall risk zone",
+    "description": "Forecast rain may cause waterlogging in low-lying streets.",
+    "lat": 31.6201,
+    "lng": 74.8895,
+    "radius_m": 700,
+    "source": "mock",
+    "severity": 3,
+    "confidence": 0.48,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_road_damage",
+    "external_id": "mock:road_damage",
+    "type": "blockage",
+    "title": "Road damage and debris",
+    "description": "Partially obstructed lane following damage to roadside infrastructure.",
+    "lat": 31.6501,
+    "lng": 74.8802,
+    "radius_m": 120,
+    "source": "mock",
+    "severity": 3,
+    "confidence": 0.65,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_smoke",
+    "external_id": "mock:smoke",
+    "type": "fire",
+    "title": "Smoke plume near industrial area",
+    "description": "Smoke reported near the service road; verify conditions before travel.",
+    "lat": 31.612,
+    "lng": 74.856,
+    "radius_m": 400,
+    "source": "mock",
+    "severity": 3,
+    "confidence": 0.55,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_waterlogging",
+    "external_id": "mock:waterlogging",
+    "type": "flood",
+    "title": "Street waterlogging",
+    "description": "Localized standing water reported after rainfall.",
+    "lat": 31.657,
+    "lng": 74.895,
+    "radius_m": 250,
+    "source": "mock",
+    "severity": 2,
+    "confidence": 0.6,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_collapse",
+    "external_id": "mock:collapse",
+    "type": "other",
+    "title": "Possible roadside structure damage",
+    "description": "Unconfirmed damage reported near a roadside structure.",
+    "lat": 31.605,
+    "lng": 74.875,
+    "radius_m": 180,
+    "source": "mock",
+    "severity": 2,
+    "confidence": 0.4,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  },
+  {
+    "id": "mock_powerline",
+    "external_id": "mock:powerline",
+    "type": "blockage",
+    "title": "Downed utility line",
+    "description": "Utility line may be obstructing part of the road; avoid the immediate area.",
+    "lat": 31.644,
+    "lng": 74.9,
+    "radius_m": 150,
+    "source": "mock",
+    "severity": 4,
+    "confidence": 0.75,
+    "admin_status": "pending",
+    "verified": false,
+    "metadata_json": {
+      "demo": true
+    }
+  }
+]

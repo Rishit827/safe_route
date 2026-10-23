@@ -1,0 +1,7 @@
+@import "tailwindcss";
+body{background:#0a0f1a;color:#e6edf7;font-family:ui-sans-serif,system-ui,sans-serif;letter-spacing:-.005em}
+.leaflet-container{background:#0a0f1a;font:inherit}
+.leaflet-container.pick{cursor:crosshair!important}
+/* dark basemap from standard tiles; delete this line if your tile provider is already dark */
+.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.95) saturate(.6)}
+.leaflet-tooltip{background:#0a0f1a;color:#e6edf7;border:1px solid #334155}
